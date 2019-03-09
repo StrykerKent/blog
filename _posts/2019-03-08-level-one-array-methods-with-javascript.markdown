@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Level 1 Array Methods with JavaScript"
-description: "Learn Javascript Level 1 Arrays in this QuickStart from Stryker Stinnette (a Web Applications Developer of over 10 years)."
+description: "Learn Javascript Level 1 Array Methods in this QuickStart from Stryker Stinnette (a Web Applications Developer of over 10 years)."
 author: "Stryker Stinnette"
 date:   2019-03-08 17:23:18 -0600
 categories: [js]

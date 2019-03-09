@@ -19,7 +19,7 @@ author: Stryker Stinnette
 description: >- # this means to ignore newlines until "baseurl:"
   Hi, I'm Stryker Stinnette and this is my blog. I am a Web Application Developer that works on many different things that involve programming logic. I write to help others and improve my skills.
 baseurl: "/" # the subpath of your site, e.g. /blog
-url: "blog.stryk3r.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://blog.stryk3r.com" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username:  strykers
 github_username:  strykerkent
 twitter_username: strykers
