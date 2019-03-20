@@ -1,11 +1,11 @@
 ---
 layout: post
 title:  "Level 1 Array Methods with JavaScript"
-description: "Learn Javascript Level 1 Array Methods in this QuickStart from Stryker Stinnette (a Web Applications Developer of over 10 years)."
+description: "Learn Javascript Level 1 Array Methods in this quickstart from Stryker Stinnette (a Web Application Developer of over 10 years)."
 author: "Stryker Stinnette"
 date:   2019-03-08 17:23:18 -0600
 categories: [js]
-tags: [javascript, arrays, beginner, array methods, level 1]
+tags: [javascript, array, beginner, method, level 1]
 permalink: /level-one-array-methods-with-javascript/
 ---
 
@@ -25,7 +25,7 @@ An index is a number assigned to an item as it enters the array. The number can 
 
 {% highlight javascript %}
 		0    1    2    3
-let myArray = ['a', 'b', 'c', 'd'];
+const myArray = ['a', 'b', 'c', 'd'];
 {% endhighlight %}
 
 Item `c` is located at index 2. It is the third item in the list but since an array's index starts at 0, it is located at position 2.
@@ -33,9 +33,9 @@ Item `c` is located at index 2. It is the third item in the list but since an ar
 **2) How to declare an array.**
 
 {% highlight javascript %}
-let arrayName = [];
+const arrayName = [];
 // or
-let arrayName = ['Item0', 'Item1', 'Item2', 'Item3'];
+const arrayName = ['Item0', 'Item1', 'Item2', 'Item3'];
 {% endhighlight %}
 
 Use brackets to declare an array. Use empty brackets when you do not have values for your array yet. The name of my array is `arrayName` but you can call your array just about anything (as long as it does not start with a number).
@@ -43,11 +43,11 @@ Use brackets to declare an array. Use empty brackets when you do not have values
 **3) Array Values - Strings and Numbers**
 {% highlight javascript %}
 // Strings
-let arrayWithStrings = ['Apples', 'Bananas', 'Oranges', 'Mangos'];
+const arrayWithStrings = ['Apples', 'Bananas', 'Oranges', 'Mangos'];
 // Numbers
-let arrayWithNumbers = [10, 11, 12, 13];
+const arrayWithNumbers = [10, 11, 12, 13];
 // Both Strings and Numbers
-let arrayWithBothStringsAndNumbers = ['Apple', 11, 'Oranges', 'Bananas', 23, 47, 85];
+const arrayWithBothStringsAndNumbers = ['Apple', 11, 'Oranges', 'Bananas', 23, 47, 85];
 {% endhighlight %}
 
 Items in the array can be strings or numbers. Strings have to be surrounded by single `'` or double quotes `"` and numbers do not. Yes, you can have both strings and numbers in the same array.
@@ -70,7 +70,7 @@ arrayName.push('Tom'); // adds 'Tom' to end of array
 
 {% highlight javascript %}
 // Example:
-let arrayName = ['Harry', 'Steve', 'Jack'];
+const arrayName = ['Harry', 'Steve', 'Jack'];
 // add Tom to array
 arrayName.push('Tom');
 // arrayName = ['Harry', 'Steve', 'Jack', 'Tom'];
@@ -90,7 +90,7 @@ If the item you put in parenthesis is in the array, `indexOf` will return the in
 
 {% highlight javascript %}
 // Example:
-let arrayName = ['Harry', 'Steve', 'Jack', 'Tom'];
+const arrayName = ['Harry', 'Steve', 'Jack', 'Tom'];
 // log to console the index of Tom in array
 console.log(arrayName.indexOf('Tom'));
 // 3
@@ -112,7 +112,7 @@ Splice takes two parameters, `Start` and `deleteCount`. The `Start` is the index
 
 {% highlight javascript %}
 // Example
-let usersOnline = ['Harry', 'Steve', 'Jack', 'Tom'];
+const usersOnline = ['Harry', 'Steve', 'Jack', 'Tom'];
 // Delete Jack
 usersOnline.splice(2, 1);
 // usersOnline = ['Harry', 'Steve', 'Tom']
@@ -133,7 +133,7 @@ arrayName.pop();
 
 {% highlight javascript %}
 // Example
-let usersOnline = ['Harry', 'Steve', 'Jack', 'Tom'];
+const usersOnline = ['Harry', 'Steve', 'Jack', 'Tom'];
 // Remove last item in array
 arrayName.pop();
 // usersOnline = ['Harry', 'Steve', 'Jack']
@@ -153,7 +153,7 @@ Returns the count of items in the array. The count starts with 1.
 
 {% highlight javascript %}
 // Example
-let arrayName = ['Harry', 'Steve', 'Jack', 'Tom'];
+const arrayName = ['Harry', 'Steve', 'Jack', 'Tom'];
 
 //loop through each item in arrayName array
 for (let i = 0; i < arrayName.length; i++) {
@@ -161,7 +161,7 @@ for (let i = 0; i < arrayName.length; i++) {
   arrayName[i] = arrayName[i].toUpperCase();
 }
 
-//log to console the length of array to prove to the people i am not lying
+//log to console the length of array to prove to the people I am not lying
 console.log(arrayName.length);
 //  4
 {% endhighlight %}
@@ -172,4 +172,4 @@ Those are my most used `level 1` array methods.
 
 I hope this article was quick, easy to follow, and helped you learn. Let me know if I need to expand on something or explain it better (in the comments section below).
 
-Next up… Level 2 Array Methods.
+Next up… [Level 2 Array Methods]({% post_url 2019-03-18-level-two-array-methods-with-javascript %}).
