@@ -18,7 +18,7 @@ That sold me. This is my attempt at explaining and breaking down higher-order fu
 
 <br>
 
-Looking for level 1 or level 2 array methods? Check out my previous posts [Level 1 Array Methods]({% post_url 2019-03-08-level-one-array-methods-with-javascript %}) and [Level 2  Array Methods]({% post_url 2019-03-18-level-two-array-methods-with-javascript %}).
+Looking for level 1 or level 2 array methods? Check out my previous posts [Level 1 Array Methods]({% post_url 2019-03-08-level-one-array-methods-with-javascript %}) and [Level 2 Array Methods]({% post_url 2019-03-18-level-two-array-methods-with-javascript %}).
 
 <br>
 
