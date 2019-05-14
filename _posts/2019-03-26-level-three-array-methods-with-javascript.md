@@ -4,10 +4,13 @@ title:  "Level 3 Array Methods with JavaScript"
 description: "Learn Javascript Level 3 Array Methods / Higher-Order Functions (filter, map, reduce) in this informational post from Stryker Stinnette (a Web Application Developer of over 10 years)."
 author: "Stryker Stinnette"
 date:   2019-03-25 19:15:00 -0600
+readTime: "4 minute read"
 categories: [js]
 tags: [javascript, array, intermediate, methods, level 3, higher-order functions]
 permalink: /level-three-array-methods-with-javascript/
 ---
+
+<img src="/assets/images/javascript_array_methods_level_3.png" alt="JavaScript Array Methods Higher Order Functions">
 
 What I classify as Level 3 array methods are what some people call higher-order functions. In this article, we will be going over [filter](#filter), [map](#map), and [reduce](#reduce) array methods.
 
@@ -211,3 +214,5 @@ const baseballPlayers = players
 Whoa, the arrow functions made this code block more compact and easier to read.
 
 I hope this article helped you gain a better understanding of Higher-Order Functions / Level 3 Array Methods in JavaScript. Let me know if I need to expand on something or explain it better (in the comments section below).
+
+Next up… [Objects in JavaScript]({% post_url 2019-04-15-objects-in-javascript %}).

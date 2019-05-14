@@ -8,7 +8,7 @@
 }
 
 .dropdown-content {
-  display: none;
+  // display: none;
   position: absolute;
   background-color: #f9f9f9;
   min-width: 300px;
@@ -18,10 +18,14 @@
   border: 1px solid #e8e8e8;
   border-radius: 5px;
   right: 0px;
+  visibility: hidden;
+  transition: 0.2s 1s;
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  // display: block;
+  visibility: visible;
+  transition-delay: 0s;
 }
 
 .dropdown-content a {
@@ -37,4 +41,10 @@
   color: #fff;
   background-color: #828282;
   // text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+  .dropdown-content { 
+    transition-delay: 0s;
+  }
 }

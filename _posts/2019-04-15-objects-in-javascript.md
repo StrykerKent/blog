@@ -4,10 +4,13 @@ title:  "Objects in JavaScript"
 description: "Learn the basics of the object data structure in JavaScript in this informational post from Stryker Stinnette (a Web Application Developer of over 10 years)."
 author: "Stryker Stinnette"
 date:   2019-04-15 19:15:00 -0600
+readTime: "3 minute read"
 categories: [js]
 tags: [javascript, objects, beginner, [data structure]]
 permalink: /objects-in-javascript/
 ---
+
+<img src="/assets/images/javascript_objects.png" alt="JavaScript Objects">
 
 Objects are everywhere in JavaScript. Learning them can help you understand parts of JavaScript better and help your programming. Objects are more dynamic than arrays because they can hold more than indexes and values.
 

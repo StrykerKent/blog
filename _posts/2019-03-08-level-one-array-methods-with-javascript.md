@@ -4,10 +4,13 @@ title:  "Level 1 Array Methods with JavaScript"
 description: "Learn Javascript Level 1 Array Methods in this quickstart from Stryker Stinnette (a Web Application Developer of over 10 years)."
 author: "Stryker Stinnette"
 date:   2019-03-08 17:23:18 -0600
+readTime: "4 minute read"
 categories: [js]
 tags: [javascript, array, beginner, method, level 1]
 permalink: /level-one-array-methods-with-javascript/
 ---
+
+<img src="/assets/images/javascript_array_methods_level_1.png" alt="JavaScript Array Methods Level 1 pop push indexOf length splice">
 
 Arrays are useful. Array methods make arrays even more useful. The better I get at programming, the more uses I find for them. In this article, I am going over what I call: Level 1 Array Methods using JavaScript. 
 

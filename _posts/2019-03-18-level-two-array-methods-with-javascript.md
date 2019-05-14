@@ -4,10 +4,13 @@ title:  "Level 2 Array Methods with JavaScript"
 description: "Learn Javascript Level 2 Array Methods in this informational post from Stryker Stinnette (a Web Application Developer of over 10 years)."
 author: "Stryker Stinnette"
 date:   2019-03-18 7:15:00 -0600
+readTime: "4 minute read"
 categories: [js]
 tags: [javascript, array, beginner, method, level 2]
 permalink: /level-two-array-methods-with-javascript/
 ---
+
+<img src="/assets/images/javascript_array_methods_level_2.png" alt="JavaScript Array Methods Level 2 shift unshift join sort reverse includes">
 
 The array methods in this article are next level (a.k.a. level 2), in my opinion. Learn these array methods after [Level 1 Array Methods]({% post_url 2019-03-08-level-one-array-methods-with-javascript %}). Remember, I am trying to 
 make this easy to understand without the extra fluff. For more in-depth array method explanations, go to the [Mozilla Developer Network](https://developer.mozilla.org/) website.
@@ -198,3 +201,5 @@ theArray.forEach(function(item) {
 Those are what I classify as `level 2` array methods. 
 
 I hope this article was quick, easy to follow, and helped you learn. Let me know if I need to expand on something or explain it better (in the comments section below).
+
+Next up… [Level 3 Array Methods]({% post_url 2019-03-26-level-three-array-methods-with-javascript %}).
