@@ -43,6 +43,10 @@
   // text-decoration: underline;
 }
 
+.post-list h3, .post-list p {
+  margin-bottom: 8px;
+}
+
 @media screen and (max-width: 600px) {
   .dropdown-content { 
     transition-delay: 0s;
