@@ -24,8 +24,8 @@ linkedin_username:  strykers
 github_username:  strykerkent
 twitter_username: strykers
 rss: rss
-#disqus:
-    #shortname: my_disqus_shortname
+disqus:
+    shortname: strykers
 google_analytics: UA-82188109-1
 show_excerpts: true
 header_pages:
