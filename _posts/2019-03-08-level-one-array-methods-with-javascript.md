@@ -76,7 +76,9 @@ arrayName.push('Tom'); // adds 'Tom' to end of array
 const arrayName = ['Harry', 'Steve', 'Jack'];
 // add Tom to array
 arrayName.push('Tom');
-// arrayName = ['Harry', 'Steve', 'Jack', 'Tom'];
+// log array to console to see what is in array
+console.log(arrayName);
+// output: ['Harry', 'Steve', 'Jack', 'Tom'];
 {% endhighlight %}
 
 <br>
@@ -96,7 +98,7 @@ If the item you put in parenthesis is in the array, `indexOf` will return the in
 const arrayName = ['Harry', 'Steve', 'Jack', 'Tom'];
 // log to console the index of Tom in array
 console.log(arrayName.indexOf('Tom'));
-// 3
+// output: 3
 {% endhighlight %}
 
 In the example above, `indexOf` returns the number `3`. To see what `indexOf` returned, we logged it to the console using `console.log()`.
@@ -118,7 +120,10 @@ Splice takes two parameters, `Start` and `deleteCount`. The `Start` is the index
 const usersOnline = ['Harry', 'Steve', 'Jack', 'Tom'];
 // Delete Jack
 usersOnline.splice(2, 1);
-// usersOnline = ['Harry', 'Steve', 'Tom']
+// output: ["Jack"]
+// log array to console to verify that 'Jack' was removed from array
+console.log(usersOnline);
+// output: ['Harry', 'Steve', 'Tom']
 {% endhighlight %}
 
 Now `usersOnline` array is just `['Harry', 'Steve', 'Tom']`.
@@ -138,8 +143,11 @@ arrayName.pop();
 // Example
 const usersOnline = ['Harry', 'Steve', 'Jack', 'Tom'];
 // Remove last item in array
-arrayName.pop();
-// usersOnline = ['Harry', 'Steve', 'Jack']
+usersOnline.pop();
+// output: 'Tom'
+// log array to console to see if last array element has been removed
+console.log(usersOnline);
+// output: ['Harry', 'Steve', 'Jack']
 {% endhighlight %}
 
 <br>
@@ -166,7 +174,7 @@ for (let i = 0; i < arrayName.length; i++) {
 
 //log to console the length of array to prove to the people I am not lying
 console.log(arrayName.length);
-//  4
+// output: 4
 {% endhighlight %}
 
 <br>
