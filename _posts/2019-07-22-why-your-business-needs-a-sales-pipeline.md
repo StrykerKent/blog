@@ -12,8 +12,8 @@ permalink: /why-your-business-needs-a-sales-pipeline/
 
 <img src="/assets/images/why_your_business_needs_sales_pipeline.png" alt="Why your Business Needs a Sales Pipeline">
 
-Do you know what your sales team is working on? `No`    
-Do you want your sales team to win more opportunities? `Yes`  
+Do you know what your sales team is working on? `No.`    
+Do you want your sales team to win more opportunities? `Yes.`  
 
 If you answered `no` to the first question or `yes` to the second, your company and sales team could benefit from using a sales pipeline.
 
