@@ -5,6 +5,6 @@
 layout: home
 title: Stryker's Recent Blog Posts
 ---
-<small>Filter by Topics: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [`JavaScript`](tag/javascript) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [`Sales / CRM`](tag/crm)</small>
+<small>Filter by Topic: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [`JavaScript`](tag/javascript) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [`Sales / CRM`](tag/crm)</small>
 
 
